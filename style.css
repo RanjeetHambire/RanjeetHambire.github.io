@@ -223,21 +223,20 @@ body::-webkit-scrollbar-thumb:hover {
 .download-cv{
     display: inline-block;
     padding: 12px 28px;
-    background: #ccc;
     border-radius: 40px;
     font-size: 16px;
     color: #121212;
     letter-spacing: 1px;
     text-decoration: none;
     font-weight: 600;
+    border: 2px solid #ccc;
+    background-color: transparent;
+    color: #ccc;
 }
 
 .download-cv:hover{
-    box-shadow: 0 0 5px 5px;
-}
-.download-cv a{
-    text-decoration: none;
-    color: red;
+    background: #ccc;
+    color: #121212;
 }
 
 /* service section  */
