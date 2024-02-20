@@ -9,6 +9,28 @@ body{
     background-color: #1c1d1e;
 }
 
+body{
+    background-color: #1c1d1e;
+}
+body::-webkit-scrollbar{
+    width: 15px;
+    
+}
+body::-webkit-scrollbar-track {
+    background-color: #1d1d309c;
+    border-radius: 5px;
+  }
+
+body::-webkit-scrollbar-thumb {
+    background-color: #74070b;
+    border-radius: 5px;
+  }
+  
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+  }
+
+
 /* Rising star  */
 
 .container2{
